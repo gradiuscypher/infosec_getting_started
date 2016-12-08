@@ -49,6 +49,8 @@ A grand collection of links to various resources on the web. I'll do my best to 
 
 [awesome-sec-talks - collected list of awesome security talks](https://github.com/PaulSec/awesome-sec-talks)
 
+[Hack This Site - Websites designed to be vulnerable](https://www.hackthissite.org/pages/index/index.php)
+
 ### Free Classes
 [cybrary.it - free online security courses](https://www.cybrary.it/)
 
