@@ -106,6 +106,8 @@ A grand collection of links to various resources on the web. I'll do my best to 
 
 [Joe Grand's Tools of the Hardware Hacking Trade - slides](http://www.grandideastudio.com/wp-content/uploads/tools_of_the_hardware_hacking_trade_slides.pdf)
 
+[Dangerous Prototypes - Open source hardware projects and tools](http://dangerousprototypes.com/blog/)
+
 # TODO
 * Include reasons why people enjoy being in the infosec industry. Encourage people to check it out.
 * Include curated Twitter lists.
