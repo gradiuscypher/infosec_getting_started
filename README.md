@@ -5,6 +5,22 @@ This is a ever-evolving document. Suggestions, edits, and recommendations are we
 
 Feedback/Pull Request on content is appreciated, I'm not a subject matter expert in many of these things. This list is not exhaustive, and I'm sure I've missed things. Help me learn too! [@0xGradius on Twitter](https://twitter.com/0xGradius)
 
+# Table of Contents
+**1. Grand Collection of Links**
+* [Blog Posts](#blog-posts)
+* [News and Blogs](#news-and-blogs)
+* [Podcasts](#podcasts)
+* [Learning Resources and Challenges](#learning-resources-and-challenges)
+* [Free Classes](#free-classes)
+* [Tools](#tools)
+* [Communities](#communities)
+
+**2. Detailed Documentation**
+* Will be created when needed
+
+**3. Todo**
+* [Repo Todo](#todo)
+
 # Grand Collection of Links
 A grand collection of links to various resources on the web. I'll do my best to organize them by category.
 
@@ -80,7 +96,7 @@ A grand collection of links to various resources on the web. I'll do my best to 
 
 [Information Security Stack Exchange](http://security.stackexchange.com/)
 
-# TODO: Things that can be changed about this repo
+# TODO
 * Include reasons why people enjoy being in the infosec industry. Encourage people to check it out.
 * Include curated Twitter lists.
 * More blogs/daily reading
