@@ -3,7 +3,7 @@ A collection of resources/documentation/links/etc to help people learn about Inf
 
 This is a ever-evolving document. Suggestions, edits, and recommendations are welcome! If content of a linked site has changed since it's been added, please let me know so that I can correct it if needed.
 
-Feedback on content is appreciated, I'm not a subject matter expert in many of these things. This list is not exhaustive, and I'm sure I've missed things. Help me learn too! [@0xGradius on Twitter](https://twitter.com/0xGradius)
+Feedback/Pull Request on content is appreciated, I'm not a subject matter expert in many of these things. This list is not exhaustive, and I'm sure I've missed things. Help me learn too! [@0xGradius on Twitter](https://twitter.com/0xGradius)
 
 # Grand Collection of Links
 A grand collection of links to various resources on the web. I'll do my best to organize them by category.
