@@ -20,6 +20,14 @@ A grand collection of links to various resources on the web. I'll do my best to 
 
 [Threatpost](https://threatpost.com/)
 
+### Podcasts
+
+[Risky Business](http://risky.biz/netcasts/risky-business)
+
+[Security Weekly](http://securityweekly.com/)
+
+[Defensive Security Podcast](http://www.defensivesecurity.org/)
+
 ### Learning Resources and challenges
 [VulnHub - Virtual machines designed to be vulnerable](https://www.vulnhub.com/)
 
