@@ -100,4 +100,4 @@ A grand collection of links to various resources on the web. I'll do my best to 
 * Include reasons why people enjoy being in the infosec industry. Encourage people to check it out.
 * Include curated Twitter lists.
 * More blogs/daily reading
-* Include more about the typical interests of the security community. Hardware hacking, 3rd printing, makerspaces, etc.
+* Include more about the typical interests of the security community. Hardware hacking, 3D printing, makerspaces, etc.
