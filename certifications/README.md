@@ -8,10 +8,9 @@ There are mixed opinions on certification within InfoSec - some are good, while 
 
 As SANS themselves says - "Information security training, network & cyber security training, certification, and research in cyber defense, pentesting, ethical hacking, digital forensics." Some of the courses are still really great and regularly updated, while others haven't changed for quite a while and feel like money spinners :-/ They do have some amazing instructors and very smart folk, but be warned, it's not cheap. While SANS do run courses worldwide, their major market with most options and courses annually is the US.
 
-SANS offers course in on-premise, physically (at a Sans conference) and online.
+SANS offers its [courses](https://www.sans.org/find-training) in on-premise, physically (at a Sans conference) and online.
 
 Certifications for SANS courses are through [GIAC](https://www.giac.org) and their gold-standard, master certification, the [GSE](http://www.giac.org/certification/security-expert-gse), is their only hands-on certification involving 3 certs, papers, a minimum of 4 multiple-choice tests and a 2-day lab.
-  * [Find Training](https://www.sans.org/find-training)
 
 * Coursera
 
