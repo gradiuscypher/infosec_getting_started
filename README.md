@@ -75,7 +75,7 @@ A grand collection of links to various resources on the web. I'll do my best to 
 [Open MIT Courseware - list of Computer Science + Electrical Engineering course videos](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/)
 
 ### Tools
-[Windows Virtual Machines - Provided my Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
+[Windows Virtual Machines - Provided by Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 
 [ExploitDB - An exploit database](https://www.exploit-db.com/)
 
