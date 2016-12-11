@@ -1,6 +1,6 @@
 # Certifications
 
-There are mixed opinions on certification within InfoSec - some are good, while many are complete crap. Regardless of your opinion, below are some links that may of interest for you to dig through yourself.
+There are mixed opinions on certification within InfoSec - some are good, while many are complete crap. Regardless of your opinion, below are some links that may of interest for you to dig through yourself (don't listen to crap from _Dark Reading_).
 
 # List of Certifications
 **1. SANS & GIAC
