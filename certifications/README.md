@@ -21,6 +21,10 @@ From the folk who created Offensive Security, these certifications are entirely 
 
 [Offensive Security Certifications](https://www.offensive-security.com/information-security-certifications/)
 
+#### Hak5 - Pentest with Hak5
+
+[Pentest with Hak5](http://www.pentestwithhak5.com/)
+
 
 #### Others
 
