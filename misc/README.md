@@ -11,3 +11,11 @@ A collection of interests that people in the Infosec community often take part i
 * [Joe Grand's Tools of the Hardware Hacking Trade - slides](http://www.grandideastudio.com/wp-content/uploads/tools_of_the_hardware_hacking_trade_slides.pdf)
 
 * [Dangerous Prototypes - Open source hardware projects and tools](http://dangerousprototypes.com/blog/)
+
+## Lockpicking
+
+* [The Open Organization of Lockpickers (TOOOL) - Lockpicking information and meetups](http://toool.us/)
+
+* [Deviant Ollam's Lockpicking Animations at TOOOL](http://toool.us/deviant/)
+
+* [Jgor's Single Pin Picking Technique](http://art-of-lockpicking.com/single-pin-picking-skills/)
