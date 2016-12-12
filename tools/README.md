@@ -6,8 +6,6 @@ Information regarding tools that are useful to help people learn about Infosec a
 
 ## Tools
 
-I can't really beat this list so why not just direct you there :)
-
 * [Top 125 Sec Tools](http://sectools.org/)
 
 ## Building a Lab
@@ -17,7 +15,7 @@ I can't really beat this list so why not just direct you there :)
 * [Windows Virtual Machines - Provided my Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 
 
-### Stuff Useful for Bug Bounty
+## Bug Bounty Related
 
 * [ExploitDB - An exploit database](https://www.exploit-db.com/)
 

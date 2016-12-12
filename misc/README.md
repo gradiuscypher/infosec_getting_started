@@ -1,10 +1,9 @@
 # Miscellaneous Interests
 
 ## Intro
+A collection of interests that people in the Infosec community often take part in. These interests usually focus on learning, understanding, and curiosity. A giant (and fun) mix of information here.
 
-This information is currently here because I can't find anywhere better :)
-
-##Hardware
+## Hardware
 
 * [Ganssle Group - reviews and information on hardware and tools](http://www.ganssle.com/)
 

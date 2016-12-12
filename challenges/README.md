@@ -1,12 +1,10 @@
 # Free Learning Resources
 
-A collection of resources 
+A collection of resources to help people learn about Infosec and break into the field.
 
 - Challenges
 - CTFs
 - Free Classes
-
-to help people learn about Infosec and break into the field.
 
 ## Challenges
 
@@ -32,7 +30,7 @@ to help people learn about Infosec and break into the field.
 
 * [Pcaps] (https://github.com/markofu/pcaps)
 
-### CTFs
+## CTFs
 
 * [CTF Time - a leaderboard/collection of network capture the flags](https://ctftime.org/)
 
@@ -42,7 +40,7 @@ to help people learn about Infosec and break into the field.
 
 * [HackEire CTF](https://github.com/markofu/hackeire)
 
-### Web Apps
+## Challenge Web Apps
 
 * [Damn Vulnerable Web Application - A web application designed to be broken](http://www.dvwa.co.uk/)
 
@@ -52,15 +50,15 @@ to help people learn about Infosec and break into the field.
 
 * [Owasp Hacking Lab](https://www.owasp.org/index.php/OWASP_Hacking_Lab)
 
-### Talks
+## Talks
 
 * [awesome-sec-talks - collected list of awesome security talks](https://github.com/PaulSec/awesome-sec-talks)
 
-### Resource Lists
+## Resource Lists
 
 * [HackerOne Resources - List of security learning resources](https://hackerone.com/resources)
 
-### Free Classes
+## Free Classes
 
 * [cybrary.it - free online security courses](https://www.cybrary.it/)
 

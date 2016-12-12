@@ -1,8 +1,8 @@
 # Blogs
 
-A short collection of bloggers to get you started (feel to ignore, edit, delete, add to etc).
+A short collection of bloggers to get you started:
 
-### News and Blogs
+## News and Blogs
 * [TaoSecurity](https://taosecurity.blogspot.com/)
 * [The Grugq](https://medium.com/@thegrugq)
 * [SANS ISC](https://isc.sans.edu/)

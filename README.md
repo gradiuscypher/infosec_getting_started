@@ -6,18 +6,15 @@ This is a ever-evolving document. Suggestions, edits, and recommendations are we
 Feedback/Pull Request on content is appreciated, I'm not a subject matter expert in many of these things. This list is not exhaustive, and I'm sure I've missed things. Help me learn too! [@0xGradius on Twitter](https://twitter.com/0xGradius)
 
 # Table of Contents
-**1. Grand Collection of Links**
-* [Blogs]
-* [Certifications]
-* [Challenges]
-* [Communities]
-* [How To Start]
-* [Misc]
-* [Podcasts]
-* [Tools]
-
-**2. Detailed Documentation**
-* Will be created when needed
+**Grand Collection of Links**
+* [Blogs](blogs/README.md)
+* [Certifications](certifications/README.md)
+* [Challenges and Classes](challenges/README.md)
+* [Communities](communities/README.md)
+* [How To Start](how_to_start/README.md)
+* [Misc](misc/README.md)
+* [Podcasts](podcasts/README.md)
+* [Tools](tools/README.md)
 
 # TODO
 * Include reasons why people enjoy being in the infosec industry. Encourage people to check it out.

@@ -1,6 +1,6 @@
 # Podcasts
 
-A short list of InfoSec podcasts.
+List of InfoSec podcasts.
 
 ## Podcast List
 

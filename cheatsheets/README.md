@@ -2,7 +2,7 @@
 
 A collection of cheat sheets to help you along you way.
 
-## List of Cheats xD
+## List of Cheats
 
 * [IT and Information Security Cheat Sheets - Lenny Zeltser](https://zeltser.com/cheat-sheets/)
 * SANS
