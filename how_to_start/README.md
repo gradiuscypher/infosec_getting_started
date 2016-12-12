@@ -1,11 +1,8 @@
 # Free Learning Resources
 
-A collection of resources
+A collection of resources to help people learn about Infosec and break into the field.
 
 - "How to Start" articles & blog posts
-
-to help people learn about Infosec and break into the field.
-
 
 ## Must-Read Articles
 
