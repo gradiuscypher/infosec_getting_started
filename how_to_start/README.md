@@ -2,8 +2,6 @@
 
 A collection of resources to help people learn about Infosec and break into the field.
 
-- "How to Start" articles & blog posts
-
 ## Must-Read Articles
 
 * [How to build a successful InfoSec Career - Daniel Miessler](https://danielmiessler.com/blog/build-successful-infosec-career/)

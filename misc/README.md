@@ -1,6 +1,5 @@
 # Miscellaneous Interests
 
-## Intro
 A collection of interests that people in the Infosec community often take part in. These interests usually focus on learning, understanding, and curiosity. A giant (and fun) mix of information here.
 
 ## Hardware
