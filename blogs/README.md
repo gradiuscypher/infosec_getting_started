@@ -1,6 +1,6 @@
 # Blogs
 
-A short collection of bloggers to get you started:
+A short collection of bloggers to get you started.
 
 ## News and Blogs
 * [TaoSecurity](https://taosecurity.blogspot.com/)
