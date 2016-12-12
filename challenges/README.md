@@ -57,6 +57,7 @@ A collection of resources to help people learn about Infosec and break into the 
 ## Resource Lists
 
 * [HackerOne Resources - List of security learning resources](https://hackerone.com/resources)
+* [Hak5 HakTips Playlist - List of youtube videos from Hak5](https://www.youtube.com/playlist?list=PLA2578BDE9CB9AAB3)
 
 ## Free Classes
 
