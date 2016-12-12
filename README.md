@@ -8,13 +8,13 @@ Feedback/Pull Request on content is appreciated, I'm not a subject matter expert
 # Table of Contents
 **Grand Collection of Links**
 * [Blogs](blogs/README.md)
+* [How To Start](how_to_start/README.md)
 * [Certifications](certifications/README.md)
 * [Challenges and Classes](challenges/README.md)
 * [Communities](communities/README.md)
-* [How To Start](how_to_start/README.md)
-* [Misc](misc/README.md)
 * [Podcasts](podcasts/README.md)
 * [Tools](tools/README.md)
+* [Misc](misc/README.md)
 
 # TODO
 * Include reasons why people enjoy being in the infosec industry. Encourage people to check it out.
