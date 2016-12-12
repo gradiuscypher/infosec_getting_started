@@ -7,14 +7,14 @@ Feedback/Pull Request on content is appreciated, I'm not a subject matter expert
 
 # Table of Contents
 **Grand Collection of Links**
-* [Blogs](blogs/README.md)
-* [How To Start](how_to_start/README.md)
-* [Certifications](certifications/README.md)
-* [Challenges and Classes](challenges/README.md)
-* [Communities](communities/README.md)
-* [Podcasts](podcasts/README.md)
-* [Tools](tools/README.md)
-* [Misc](misc/README.md)
+* [Blogs](blogs/README.md) - Infosec related blogs
+* [How To Start](how_to_start/README.md) - Resources for getting started in Infosec
+* [Certifications](certifications/README.md) - Security related certifications
+* [Challenges and Classes](challenges/README.md) - Free security topic challenges and classes
+* [Communities](communities/README.md) - Communities that focus on security
+* [Podcasts](podcasts/README.md) - Security podcasts
+* [Tools](tools/README.md) - Security tools and resource sites
+* [Misc](misc/README.md) - Other things Security people are interested in
 
 # TODO
 * Include reasons why people enjoy being in the infosec industry. Encourage people to check it out.
