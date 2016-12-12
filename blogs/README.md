@@ -10,3 +10,4 @@ A short collection of bloggers to get you started.
 * [Krebs on Security](https://krebsonsecurity.com/)
 * [Threatpost](https://threatpost.com/)
 * [Lenny Zeltser](https://zeltser.com/blog/)
+* [Hak5](https://www.hak5.org/)
