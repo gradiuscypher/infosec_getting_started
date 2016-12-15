@@ -19,3 +19,7 @@ A collection of interests that people in the Infosec community often take part i
 * [Deviant Ollam's Lockpicking Animations at TOOOL](http://toool.us/deviant/)
 
 * [Jgor's "Improving Single Pin Picking Skills" - The Art of Lockpicking](http://art-of-lockpicking.com/single-pin-picking-skills/)
+
+## InfoSec Hiring
+
+* [Daniel Miesler's InfoSec Interview Questions](https://danielmiessler.com/study/infosec_interview_questions/)
