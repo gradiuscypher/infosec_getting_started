@@ -12,3 +12,5 @@ A collection of cheat sheets to help you along you way.
   * [TCPIP](https://www.sans.org/security-resources/tcpip.pdf)
   * [Google](https://www.sans.org/security-resources/GoogleCheatSheet.pdf)
 * [OSI Model](http://jaredheinrichs.com/mastering-the-osi-tcpip-models.html)
+
+* ["Awesome" Collection of Cheatsheets](https://github.com/andrewjkerr/security-cheatsheets)
