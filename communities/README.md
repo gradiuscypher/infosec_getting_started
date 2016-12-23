@@ -27,3 +27,7 @@ List of forums and communities that are focused on InfoSec.
 ### SANS
 
 * [SANS Forums](https://isc.sans.edu/forums/)
+
+### Meetup.com
+
+* [Meetup](https://www.meetup.com/)
