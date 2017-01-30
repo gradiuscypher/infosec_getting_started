@@ -1,4 +1,4 @@
-# Communities 
+# Communities
 
 List of forums and communities that are focused on InfoSec.
 
@@ -20,7 +20,7 @@ List of forums and communities that are focused on InfoSec.
 
 * [Bugcrowd Forums - Bug bounty forums](https://forum.bugcrowd.com/)
 
-### StackExchange 
+### StackExchange
 
 * [Information Security Stack Exchange](http://security.stackexchange.com/)
 
