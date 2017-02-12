@@ -20,3 +20,13 @@ Information regarding tools that are useful to help people learn about Infosec a
 * [Bugcrowd - A bug bounty platform](https://bugcrowd.com/)
 
 * [HackerOne - A bug bounty platform](https://hackerone.com)
+
+## Online Resources
+
+* [APK Analyzer](https://apkscan.nviso.be/)
+
+* [URL Analysis and IoC](https://malwr.com/)
+
+* [URL Analysis](https://virustotal.com/)
+
+* [URL Analysis](https://exchange.xforce.ibmcloud.com/)
