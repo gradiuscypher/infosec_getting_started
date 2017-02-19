@@ -10,3 +10,4 @@ A short collection of books that may be of interest.
 * [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921)
 * [The Art of Software Security Assessment](https://www.amazon.com/dp/0321444426/)
 * [A Bug Hunter's Diary](https://www.amazon.com/dp/1593273851/)
+* [The Web Application Hacker's Handbook](https://www.amazon.com/dp/1118026470)
