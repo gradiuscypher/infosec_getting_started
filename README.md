@@ -14,6 +14,7 @@ Feedback/Pull Request on content is appreciated, I'm not a subject matter expert
 * [Communities](communities/README.md) - Communities that focus on security
 * [Podcasts](podcasts/README.md) - Security podcasts
 * [Tools](tools/README.md) - Security tools and resource sites
+* [Books](books/README.md) - Recommended reads.
 * [Misc](misc/README.md) - Other things Security people are interested in
 
 # TODO

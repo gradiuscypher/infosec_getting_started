@@ -20,3 +20,5 @@ Information regarding tools that are useful to help people learn about Infosec a
 * [Bugcrowd - A bug bounty platform](https://bugcrowd.com/)
 
 * [HackerOne - A bug bounty platform](https://hackerone.com)
+
+* [HackerOne - Public Disclosure List](http://h1.nobbd.de/)
