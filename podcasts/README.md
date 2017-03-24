@@ -18,7 +18,7 @@ List of InfoSec podcasts.
 
 * [Down the Security Rabbithole](http://podcast.wh1t3rabbit.net/rss)
 
-* [Building a Life and Career in Security](https://buildingacareerinsecurity.com/feed/podcast/)
+* [Building a Life and Career in Security](http://www.stitcher.com/podcast/building-a-life-and-career-in-security/)
 
 * [Liquidmatrix Security Digest Podcast](http://liquidmatrix.libsyn.com/rss)
 
