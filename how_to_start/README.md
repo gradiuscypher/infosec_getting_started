@@ -12,3 +12,5 @@ A collection of resources to help people learn about Infosec and break into the 
 * [Introduction to DFIR - Scott Roberts](https://medium.com/@sroberts/introduction-to-dfir-d35d5de4c180)
 * [Entering Information Security](http://www.defensivesecurity.org/entering-information-security-industry/)
 * [Breaking In - Digininja](https://digi.ninja/projects/breaking_in_part_1.php)
+* [Transitioning_Into_InfoSec - ForgottenSec](https://github.com/ForgottenSec/Transitioning_Into_InfoSec/blob/master/index.md)
+* [How to start in Infosec - mubix](https://gist.github.com/mubix/5737a066c8845d25721ec4bf3139fd31)
