@@ -10,6 +10,9 @@ A short collection of books that may be of interest.
 * [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921)
 * [A Bug Hunter's Diary](https://www.amazon.com/dp/1593273851/)
 * [The Web Application Hacker's Handbook](https://www.amazon.com/dp/1118026470)
+* [How to Hack Like a PORNSTAR: Step by step process for breaking into a bank, 2017](https://books2read.com/u/bWzdBx)
+* [How to Hack Like a GOD: Master the secrets of hacking through real life scenarios](https://books2read.com/u/mBPGOy)
+* [How to Hack Like a LEGEND: A hacker’s tale breaking into a secretive offshore company](https://amzn.to/2uWh1Up)
 
 ## Reverse Engineering / Malware Analysis
 * [Practical Malware Analysis](https://www.amazon.co.uk/d/Books/Practical-Malware-Analysis-Hands-Dissecting-Malicious-Software/1593272901/ref=sr_1_1?ie=UTF8&qid=1497404417&sr=8-1&keywords=practical+malware+analysis)
