@@ -15,6 +15,7 @@ Feedback/Pull Request on content is appreciated, I'm not a subject matter expert
 * [Podcasts](podcasts/README.md) - Security podcasts
 * [Tools](tools/README.md) - Security tools and resource sites
 * [Books](books/README.md) - Recommended reads.
+* [Bug Bounty](bugbounty/README.md) - Resources for Bug Bounty hunters
 * [Misc](misc/README.md) - Other things Security people are interested in
 
 # TODO
