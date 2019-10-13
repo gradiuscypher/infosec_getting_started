@@ -8,6 +8,8 @@ A collection of resources to help people learn about Infosec and break into the 
 
 ## Challenges
 
+* [Root-me](https://www.root-me.org/?lang=en)
+Root-me includes challenges, CTF, and learning resources.
 * Ed Skoudis et al "Holiday Hack Challenges"
   * [2011](https://pen-testing.sans.org/holiday-challenge/2011)
   * [2012](https://pen-testing.sans.org/holiday-challenge/2012)
