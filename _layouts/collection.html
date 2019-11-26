@@ -19,7 +19,7 @@
       </section>
 
       <section>
-          {% for object in site.page.collection_type %}
+          {% for object in site.blogs %}
             <h2>{{ object.name }}</h2>
             <p> {{ object.url }} </p>
             <p> {{ object.content | markdownify }}</p>
