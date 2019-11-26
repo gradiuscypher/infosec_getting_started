@@ -17,10 +17,8 @@
   <body>
     <div class="wrapper">
       <section>
-          {% for object in site.blogs %}
-            <h2>{{ object.name }}</h2>
-            <p> {{ object.url }} </p>
-            <p> {{ object.content | markdownify }}</p>
+          {% for blog in site.blogs %}
+            <h2>{{ blog.name }}</h2>
           {% endfor %}
       </section>
     </div>
