@@ -3,4 +3,4 @@ Filler content as I setup Github pages for this project!
 
 :)
 
-* [Blogs](blogs.md)
+* [Blogs](blogs.html)
