@@ -15,11 +15,11 @@
     <div class="wrapper">
       <section>
         {{ content }}
-        {{ collection_type }}
+        {{ page.collection_type }}
       </section>
 
       <section>
-          {% for object in site.{{ collection_type }} %}
+          {% for object in site.page.collection_type %}
             <h2>{{ object.name }}</h2>
             <p> {{ object.url }} </p>
             <p> {{ object.content | markdownify }}</p>
