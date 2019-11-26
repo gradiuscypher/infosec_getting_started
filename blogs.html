@@ -1,5 +1,4 @@
 ---
-collection_type: blogs
 ---
 
 <!DOCTYPE html>
@@ -18,12 +17,7 @@ collection_type: blogs
   <body>
     <div class="wrapper">
       <section>
-        {{ content }}
-        {{ page.collection_type }}
-      </section>
-
-      <section>
-          {% for object in page.collection_type %}
+          {% for object in site.blogs %}
             <h2>{{ object.name }}</h2>
             <p> {{ object.url }} </p>
             <p> {{ object.content | markdownify }}</p>
