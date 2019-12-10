@@ -1,13 +1,12 @@
 ---
+style: default
 ---
 
-Using docker to test locally:
-```
-docker run -p 4000:4000 --rm --volume="$PWD:/srv/jekyll" -it jekyll/builder bash
-```
+# Header One
+* list item
+* list item
+* list item
 
-And then, in the docker container:
 ```
-gem install github-pages
-jekyll serve
+this is example code
 ```
