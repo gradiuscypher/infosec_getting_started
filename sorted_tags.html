@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -15,9 +17,10 @@
     <div class="wrapper">
       <section>
           {% for collection in site.collections %}
-            {{ collection.label}}
-            {% for obj in collection %}
-                {{ object.name }}
+            <p><b>{{ collection.label}}</b></p>
+            {% assign name=collection.label %}
+            {% for obj in site.[name] %}
+              <p>{{ obj.name }}</p>
             {% endfor %}
           {% endfor %}
       </section>

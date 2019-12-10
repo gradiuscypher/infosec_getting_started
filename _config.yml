@@ -1,4 +1,11 @@
 theme: jekyll-theme-minimal
 collections:
   - blogs
+  - challenges
+  - communities
+  - guides
+  - media
+  - misc
+  - tools
+  - training
 collections_dir: collections
