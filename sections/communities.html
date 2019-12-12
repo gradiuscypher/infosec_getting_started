@@ -15,18 +15,18 @@
 
   <body>
     <div class="wrapper">
-        <h1>Infosec Getting Started - Guides</h1>
+        <h1>Infosec Getting Started - Communities</h1>
         <section>
             <p>This is introduction text. This is introduction text. This is introduction text.</p>
         </section>
 
         <section>
             <table border="0">
-                {% for guide in site.guides %}
-                    {% if guide.render %}
+                {% for community in site.communities %}
+                    {% if community.render %}
                         <tr>
-                            <td><a href="{{ guide.target }}">{{ guide.name }}</a></td>
-                            <td>{{ guide.short_description }}</td>
+                            <td><a href="{{ community.target }}">{{ community.name }}</a></td>
+                            <td>{{ community.short_description }}</td>
                             <td class="tright"><a href=""><sub>metadata</sub></a></td>
                         </tr>
                     {% endif %}

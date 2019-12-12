@@ -1,7 +1,7 @@
 ---
 tags: offensive, defensive
-name: Example Blog
-short_description: A blog about things.
+name: Example Guide
+short_description: A guide about things.
 target: https://www.grds.io/
 author: gradiuscypher
 contributor: gradiuscypher
@@ -9,6 +9,4 @@ last_updated: 2019-11-26
 render: true
 ---
 
-This is my personal blog.
-
-I write things.
+Example guide. This is a long description.

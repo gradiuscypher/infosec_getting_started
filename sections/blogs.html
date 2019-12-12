@@ -15,18 +15,18 @@
 
   <body>
     <div class="wrapper">
-        <h1>Infosec Getting Started - Guides</h1>
+        <h1>Infosec Getting Started - Blogs</h1>
         <section>
             <p>This is introduction text. This is introduction text. This is introduction text.</p>
         </section>
 
         <section>
             <table border="0">
-                {% for guide in site.guides %}
-                    {% if guide.render %}
+                {% for blog in site.blogs %}
+                    {% if blog.render %}
                         <tr>
-                            <td><a href="{{ guide.target }}">{{ guide.name }}</a></td>
-                            <td>{{ guide.short_description }}</td>
+                            <td><a href="{{ blog.target }}">{{ blog.name }}</a></td>
+                            <td>{{ blog.short_description }}</td>
                             <td class="tright"><a href=""><sub>metadata</sub></a></td>
                         </tr>
                     {% endif %}

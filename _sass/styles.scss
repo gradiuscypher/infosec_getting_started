@@ -86,7 +86,17 @@ table {
   border-collapse:collapse;
 }
 
-tr:nth-child(odd) {
+.tright {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.tleft {
+  text-align: left;
+  margin-left: 1em;
+}
+
+tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
