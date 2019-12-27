@@ -15,14 +15,15 @@
 
   <body>
     <div class="wrapper">
-        <h1>Infosec Getting Started - Guides</h1>
+        <p align="right"><a href="/">Home</a></p>
+        <h1>Infosec Getting Started - Guides - Bug Bounty</h1>
         <section>
             <p>This is introduction text. This is introduction text. This is introduction text.</p>
         </section>
 
         <section>
             <table border="0">
-                {% for guide in site.guides %}
+                {% for guide in site.bugbounty %}
                     {% if guide.render %}
                         <tr>
                             <td><a href="{{ guide.target }}">{{ guide.name }}</a></td>
