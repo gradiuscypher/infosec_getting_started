@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 collections:
   - blogs
+  - bugbounty
   - challenges
   - communities
   - guides
