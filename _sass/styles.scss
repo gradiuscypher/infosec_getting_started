@@ -200,11 +200,13 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+.footer {
+  // width:100%;
+  // float:left;
+  // position:fixed;
+  // bottom:200px;
+  text-align: center;
+  padding-top: 50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
