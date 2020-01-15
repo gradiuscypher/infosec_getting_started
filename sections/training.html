@@ -15,14 +15,15 @@
 
   <body>
     <div class="wrapper">
+        <p align="right"><a href="/">Home</a></p>
         <h1>Infosec Getting Started - Training</h1>
         <section>
-            <p>This is introduction text. This is introduction text. This is introduction text.</p>
+            <p>Information on training and classes, both free and paid.</p>
         </section>
 
         <section>
             <table border="0">
-                {% for training in site.trainings %}
+                {% for training in site.training %}
                     {% if training.render %}
                         <tr>
                             <td><a href="{{ training.target }}">{{ training.name }}</a></td>
