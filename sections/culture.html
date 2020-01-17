@@ -15,19 +15,19 @@
 
   <body>
     <div class="wrapper">
-        <h1><a href="/">Infosec Getting Started</a> - Blogs</h1>
+        <h1><a href="/">Infosec Getting Started</a> - Hacker Culture</h1>
         <section>
-            <p>Blogs related to Infosec and other topics.</p>
+            <p>Things that I beleive other hackers might find interesting. May or may not be related to Infosec.</p>
         </section>
 
         <section>
             <table border="0">
-                {% for blog in site.blogs %}
-                    {% if blog.render %}
+                {% for link in site.culture %}
+                    {% if link.render %}
                         <tr>
-                            <td><a href="{{ blog.target }}">{{ blog.name }}</a></td>
-                            <td>{{ blog.short_description }}</td>
-                            <td class="tright"><a href="https://raw.githubusercontent.com/gradiuscypher/infosec_getting_started/gh-pages/collections/{{ blog.path }}"><sub>metadata</sub></a></td>
+                            <td><a href="{{ link.target }}">{{ link.name }}</a></td>
+                            <td>{{ link.short_description }}</td>
+                            <td class="tright"><a href="https://raw.githubusercontent.com/gradiuscypher/infosec_getting_started/gh-pages/collections/{{ link.path }}"><sub>metadata</sub></a></td>
                         </tr>
                     {% endif %}
                 {% endfor %}
