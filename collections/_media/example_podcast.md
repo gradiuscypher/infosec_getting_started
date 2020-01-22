@@ -6,7 +6,7 @@ target: https://github.com/PaulSec/awesome-sec-talks
 author: https://github.com/PaulSec
 contributor: gradiuscypher
 last_updated: 2020-01-02
-render: true
+render: false
 
 media_type: podcast
 ---
