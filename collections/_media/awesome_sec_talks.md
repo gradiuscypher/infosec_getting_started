@@ -7,6 +7,8 @@ author: https://github.com/PaulSec
 contributor: gradiuscypher
 last_updated: 2020-01-02
 render: true
+
+media_type: video
 ---
 
-A collection of community-made virtual machines that are configured in a vulnerable state.
+A collected list of awesome security talks
