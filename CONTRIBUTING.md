@@ -1,5 +1,5 @@
 # Contributing
-A more in-depth contribution guide is coming soon. Please hold tight!
+A more in-depth contribution guide is coming soon. Please hold tight! For the time being, if you'd like to submit new resources, please open an issue on the Github project page. Thank you!
 
 ## Rough Notes
 
