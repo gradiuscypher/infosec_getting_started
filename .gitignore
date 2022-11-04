@@ -1,1 +1,3 @@
 venv3/
+config.py
+*/__pycache__/*
