@@ -1,4 +1,5 @@
 # media
+Infosec media like podcasts, recorded presentations, etc
 
 | URL | Title | Description |
 | --- | --- | --- |

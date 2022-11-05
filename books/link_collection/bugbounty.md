@@ -1,4 +1,5 @@
 # bugbounty
+A collection of guides specifically related to bug bounty hunting.
 
 | URL | Title | Description |
 | --- | --- | --- |

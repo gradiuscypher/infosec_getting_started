@@ -1,4 +1,5 @@
 # challenges
+Challenges to help practice skills
 
 | URL | Title | Description |
 | --- | --- | --- |

@@ -1,4 +1,5 @@
 # training
+Information on training and classes, both free and paid
 
 | URL | Title | Description |
 | --- | --- | --- |

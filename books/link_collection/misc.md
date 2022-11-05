@@ -1,4 +1,5 @@
 # misc
+Miscellaneous resources that don't fit elsewhere
 
 | URL | Title | Description |
 | --- | --- | --- |

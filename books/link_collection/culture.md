@@ -1,4 +1,5 @@
 # culture
+Things that I beleive other hackers might find interesting, may or may not be related to Infosec
 
 | URL | Title | Description |
 | --- | --- | --- |
