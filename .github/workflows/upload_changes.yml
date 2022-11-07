@@ -21,6 +21,6 @@ jobs:
       - name: Setup python for scripts
         uses: actions/setup-python@v4
         with:
-          python-version: 'pypy3.10'
+          python-version: '3.10'
       - name: Run the CICD script
         run: python tools/upload_to_bookstack.py ${{steps.changed-files.outputs.added_files}} ${{steps.changed-files.outputs.modified_files}} ${{steps.changed-files.outputs.deleted_files}}
