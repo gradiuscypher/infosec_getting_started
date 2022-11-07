@@ -1,0 +1,14 @@
+name: Upload to Bookstack
+on: [push]
+jobs:
+  upload-to-bookstack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get changed files with JSON output
+        id: changed-files-json
+        uses: tj-actions/changed-files@v34
+        with:
+          json: true
+      - name: Show changed files JSON
+        run: |
+          echo ${{ steps.changed-files-json.outputs.all_modified_files}}
