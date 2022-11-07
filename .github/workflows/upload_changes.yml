@@ -4,6 +4,10 @@ jobs:
   upload-to-bookstack:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout the files
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Get changed files with JSON output
         id: changed-files-json
         uses: tj-actions/changed-files@v34
