@@ -11,10 +11,10 @@ import requests
 import traceback
 from sys import argv
 
-# api_url = "https://docs.grds.io/api"
-# headers = {
-#     "Authorization": f"Token {config.token_id}:{config.token_secret}"
-# }
+api_url = "https://docs.grds.io/api"
+headers = {
+    "Authorization": f"Token {os.environ.get('TOKEN_ID')}:{os.environ.get('TOKEN_SECRET')}"
+}
 
 
 def create_book(name, description):
@@ -111,6 +111,9 @@ def run_cicd(added_files, modified_files, deleted_files):
     # when files are deleted, determine which book and page was deleted, then delete those. If an entire directory was deleted, remove the book as well
     deleted_files = json.loads(deleted_files)
     print(f"Deleted: {deleted_files}")
+
+    # Test creating a book just to see if the secrets are working
+    create_book("Github Actions", "A book created by actions.")
 
 
 if __name__ == "__main__":

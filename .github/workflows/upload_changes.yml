@@ -25,4 +25,7 @@ jobs:
       - name: Install python requirements
         run: pip install -r requirements.txt
       - name: Run the CICD script
+        env:
+          TOKEN_ID: ${{secrets.TOKEN_ID}}
+          TOKEN_SECRET: ${{secrets.TOKEN_SECRET}}
         run: python tools/upload_to_bookstack.py ${{steps.changed-files.outputs.added_files}} ${{steps.changed-files.outputs.modified_files}} ${{steps.changed-files.outputs.deleted_files}}
