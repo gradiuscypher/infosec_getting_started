@@ -10,6 +10,7 @@ import json
 import os
 import requests
 import traceback
+from sys import argv
 
 api_url = "https://docs.grds.io/api"
 headers = {
@@ -99,14 +100,24 @@ def iterate_over_files():
 
 
 def run_cicd(added_files, modified_files, deleted_files):
+    print("Running CICD...")
     # when new files are added, determine if they're a new or already existing book, then add the pages
+    added_files = json.loads(added_files)
+    print(f"Added: {added_files}")
 
     # when files are modified, determine which book and page was modified, then upload the new contents
+    modified_files = json.loads(modified_files)
+    print(f"Modified: {modified_files}")
 
     # when files are deleted, determine which book and page was deleted, then delete those. If an entire directory was deleted, remove the book as well
-
-    pass
+    deleted_files = json.loads(deleted_files)
+    print(f"Deleted: {deleted_files}")
 
 
 if __name__ == "__main__":
-    iterate_over_files()
+    # iterate_over_files()
+    added_files = argv[1]
+    modified_files = argv[2]
+    deleted_files = argv[3]
+
+    run_cicd(added_files, modified_files, deleted_files)
