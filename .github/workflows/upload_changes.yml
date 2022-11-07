@@ -9,10 +9,10 @@ jobs:
         with:
           fetch-depth: 0
       - name: Get changed files with JSON output
-        id: changed-files-json
+        id: changed-files
         uses: tj-actions/changed-files@v34
-        with:
-          json: "true"
       - name: Show changed files JSON
         run: |
-          echo ${{ steps.changed-files-json.outputs.all_modified_files}}
+          echo "Added: ${{ steps.changed-files.outputs.added_files}}"
+          echo "Modified: ${{ steps.changed-files.outputs.modified_files}}"
+          echo "Deleted: ${{ steps.changed-files.outputs.deleted_files}}"
