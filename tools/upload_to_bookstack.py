@@ -113,7 +113,7 @@ def run_cicd(added_files, modified_files, deleted_files):
     print(f"Deleted: {deleted_files}")
 
     # Test creating a book just to see if the secrets are working
-    create_book("Github Actions", "A book created by actions.")
+    # create_book("Github Actions", "A book created by actions.")
 
 
 if __name__ == "__main__":
