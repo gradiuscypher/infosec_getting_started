@@ -98,5 +98,15 @@ def iterate_over_files():
             process_book_dir(dir)
 
 
+def run_cicd(added_files, modified_files, deleted_files):
+    # when new files are added, determine if they're a new or already existing book, then add the pages
+
+    # when files are modified, determine which book and page was modified, then upload the new contents
+
+    # when files are deleted, determine which book and page was deleted, then delete those. If an entire directory was deleted, remove the book as well
+
+    pass
+
+
 if __name__ == "__main__":
     iterate_over_files()
