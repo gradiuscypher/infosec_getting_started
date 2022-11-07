@@ -5,17 +5,16 @@
 # TODO: generate the readme.md with each page link for easier reading on Github
 # ref: https://demo.bookstackapp.com/api/docs
 
-import config
 import json
 import os
 import requests
 import traceback
 from sys import argv
 
-api_url = "https://docs.grds.io/api"
-headers = {
-    "Authorization": f"Token {config.token_id}:{config.token_secret}"
-}
+# api_url = "https://docs.grds.io/api"
+# headers = {
+#     "Authorization": f"Token {config.token_id}:{config.token_secret}"
+# }
 
 
 def create_book(name, description):
