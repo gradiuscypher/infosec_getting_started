@@ -12,7 +12,7 @@ jobs:
         id: changed-files-json
         uses: tj-actions/changed-files@v34
         with:
-          json: true
+          json: "true"
       - name: Show changed files JSON
         run: |
           echo ${{ steps.changed-files-json.outputs.all_modified_files}}
