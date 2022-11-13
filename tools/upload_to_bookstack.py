@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 # TODO: set the header image when creating a book
-# TODO: deduplicate or update book rather than deleting and recreating every time
 # TODO: generate the readme.md with each page link for easier reading on Github
+# TODO: set the shelf of the book when creating
 # ref: https://demo.bookstackapp.com/api/docs
 
 import json
