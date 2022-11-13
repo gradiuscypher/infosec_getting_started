@@ -220,19 +220,22 @@ def run_cicd(added_files, modified_files, deleted_files):
     added_files = json.loads(added_files)
     print(f"Added: {added_files}")
     for filename in added_files:
-        upload_page(filename)
+        if filename.endswith(".md"):
+            upload_page(filename)
 
     # when files are modified, determine which book and page was modified, then upload the new contents
     modified_files = json.loads(modified_files)
     print(f"Modified: {modified_files}")
     for filename in modified_files:
-        upload_page(filename)
+        if filename.endswith(".md"):
+            upload_page(filename)
 
     # when files are deleted, determine which book and page was deleted, then delete those. If an entire directory was deleted, remove the book as well
     deleted_files = json.loads(deleted_files)
     print(f"Deleted: {deleted_files}")
     for filename in deleted_files:
-        upload_page(filename, delete=True)
+        if filename.endswith(".md"):
+            upload_page(filename, delete=True)
 
 
 if __name__ == "__main__":
