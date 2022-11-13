@@ -32,10 +32,42 @@ def create_book(name, description):
             return book_id
         else:
             print("Unable to create book.")
+            print(result.json())
             return None
 
     except:
         print(f"Unable to create book: {name}")
+        print(traceback.format_exc())
+        return None
+
+
+def update_page(book_id, page_id, page_title, markdown):
+    endpoint = f"/pages/{page_id}"
+
+    try:
+        page_body = {
+            "book_id": book_id,
+            "name": page_title,
+            "markdown": markdown
+        }
+
+        result = requests.put(api_url + endpoint, json=page_body, headers=headers)
+        return result.json()["id"]
+
+    except:
+        print(f"Unable to update page: {page_title}")
+        print(traceback.format_exc())
+        return None
+
+
+def delete_page(page_id):
+    endpoint = f"/pages/{page_id}"
+
+    try:
+        result = requests.delete(api_url + endpoint, headers=headers)
+        return (result.status_code, result.text)
+    except:
+        print(f"Unable to delete page: {page_id}")
         print(traceback.format_exc())
         return None
 
@@ -56,10 +88,49 @@ def create_page(book_id, name, markdown):
             return page_id
         else:
             print("Unable to create page.")
+            print(result.json())
             return None
 
     except:
         print(f"Unable to create page: {name}")
+        print(traceback.format_exc())
+        return None
+
+
+def get_current_books():
+    endpoint = "/books"
+    books = {}
+
+    try:
+        result = requests.get(api_url + endpoint, headers=headers)
+
+        if result.status_code == 200:
+            data = result.json()["data"]
+            for book in data:
+                books[book["name"]] = book["id"]
+        return books
+
+    except:
+        print(f"Unable to get books")
+        print(traceback.format_exc())
+        return None
+
+
+def get_current_pages():
+    endpoint = "/pages"
+    pages = {}
+
+    try:
+        result = requests.get(api_url + endpoint, headers=headers)
+        if result.status_code == 200:
+            data = result.json()["data"]
+            for page in data:
+                pages[page["name"]] = page["id"]
+
+        return pages
+
+    except:
+        print(f"Unable to get Pages")
         print(traceback.format_exc())
         return None
 
@@ -71,7 +142,7 @@ def process_book_dir(book_tuple):
     with open(book_dir + "/metadata.json") as json_file:
         metadata = json.loads(json_file.read())
 
-        # # create the book
+        # create the book
         book_id = create_book(metadata["title"], metadata["description"])
 
         # start adding pages
@@ -98,22 +169,70 @@ def iterate_over_files():
             process_book_dir(dir)
 
 
+def upload_page(full_page_filename, delete=False):
+    # get a list of all the current pages and books so that we can update them when appropriate
+    current_pages = get_current_pages()
+    current_books = get_current_books()
+
+    page_title = full_page_filename.split("/")[-1].split(".")[0].replace("_", " ").title()
+
+    # delete the page if the update action was delete
+    if delete:
+        if page_title in current_pages:
+            page_id = current_pages[page_title]
+            delete_page(page_id)
+        else:
+            print("Page ID doesn't exist")
+
+    else:
+        # open the metadata file for the book
+        book_dir = ("/").join(full_page_filename.split("/")[:-1])
+
+        with open(book_dir + "/metadata.json") as json_file:
+            metadata = json.loads(json_file.read())
+            book_title = metadata["title"]
+            book_description = metadata["description"]
+
+            # create the book if it doesn't already exist
+            if book_title not in current_books.keys():
+                book_id = create_book(book_title, book_description)
+            else:
+                book_id = current_books[book_title]
+
+            # create the page if it doesn't exist, otherwise update it
+            with open(f"{full_page_filename}") as md_page:
+                # skip the first line since that's the title in markdown
+                md_page.readline()
+
+                # get the title and the rest of the content
+                page_content = md_page.read()
+
+                if page_title not in current_pages.keys():
+                    create_page(book_id, page_title, page_content)
+                else:
+                    page_id = current_pages[page_title]
+                    update_page(book_id, page_id, page_title, page_content)
+
+
 def run_cicd(added_files, modified_files, deleted_files):
     print("Running CICD...")
     # when new files are added, determine if they're a new or already existing book, then add the pages
     added_files = json.loads(added_files)
     print(f"Added: {added_files}")
+    for filename in added_files:
+        upload_page(filename)
 
     # when files are modified, determine which book and page was modified, then upload the new contents
     modified_files = json.loads(modified_files)
     print(f"Modified: {modified_files}")
+    for filename in modified_files:
+        upload_page(filename)
 
     # when files are deleted, determine which book and page was deleted, then delete those. If an entire directory was deleted, remove the book as well
     deleted_files = json.loads(deleted_files)
     print(f"Deleted: {deleted_files}")
-
-    # Test creating a book just to see if the secrets are working
-    # create_book("Github Actions", "A book created by actions.")
+    for filename in deleted_files:
+        upload_page(filename, delete=True)
 
 
 if __name__ == "__main__":
