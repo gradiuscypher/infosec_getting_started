@@ -1,3 +1,2 @@
-# Ignore Jekyll stuff
-_site/
-.jekyll-cache
+# ignore mkdocs venv
+venv/

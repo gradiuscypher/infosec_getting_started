@@ -1,0 +1,17 @@
+site_name: Infosec Getting Started
+theme:
+  name: material
+  palette:
+    scheme: slate
+    accent: green
+    primary: black
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+  - offline
+
+repo_url: https://https://github.com/gradiuscypher/infosec_getting_started/
+repo_name: infosec_getting_started
