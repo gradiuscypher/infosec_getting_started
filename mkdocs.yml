@@ -1,12 +1,19 @@
 site_name: Infosec Getting Started
 theme:
   name: material
+  custom_dir: overrides
   palette:
     scheme: slate
     accent: green
     primary: black
   icon:
     repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://infosec.exchange/@gradius
+      name: gradius
 
 plugins:
   - search
