@@ -1,6 +1,23 @@
-# Infosec Getting Started
-My infosec knowledge base. You can find the rendered version here: https://infosec.grds.io or https://gradiuscypher.github.io/infosec_getting_started.
+# infosec_getting_started
+A collection of links to useful and interesting places on the Internet.
 
-You can find the Markdown-based content for this repository here: [docs/](docs/)
-# Contributing
-Currently I'm reorganizing the repo and layout, but when I'm ready for contributions, I'll modify this section. Thank you in advance!
+# Topics and Sections
+[Blogs](blogs.md)
+
+[Bug Bounty](bugbounty.md)
+
+[Challenges](challenges.md)
+
+[Communities](communities.md)
+
+[Culture](culture.md)
+
+[Guides](guides.md)
+
+[Media](media.md)
+
+[Miscellaneous](misc.md)
+
+[Tools](tools.md)
+
+[Training](training.md)
