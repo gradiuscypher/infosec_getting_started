@@ -1,6 +1,42 @@
-# Infosec Getting Started
-My infosec knowledge base. You can find the rendered version here: https://infosec.grds.io or https://gradiuscypher.github.io/infosec_getting_started.
+# Infosec Getting Started 2025 Refresh
 
-You can find the Markdown-based content for this repository here: [docs/](docs/)
-# Contributing
-Currently I'm reorganizing the repo and layout, but when I'm ready for contributions, I'll modify this section. Thank you in advance!
+# Goals
+
+- Split the resources into various infosec topics
+  - Split the topics into rough skill levels
+- Stick to very simple markdown that can be viewed in Github, possibly mirror to Gitlab or self-hosted Git
+- Add a contribution guide for the new content
+
+# Other thoughts
+
+- Include a weekly write up of news and new resources included in the repo?
+- How do I keep these links up to date? Need some sort of link freshness automation
+
+# Topics
+
+- Security Automation
+- DFIR
+- Detection and Response
+- Reverse Engineering
+- Cloud Security
+- Privacy
+- Enterprise Security
+  - Zero Trust
+  - BPO Management
+  - Asset Management
+- Offensive Security
+- Learning Opportunities
+  - Capture the Flag
+  - Homelab
+- IAM
+- Application Security
+- Risk Management
+- Cryptography
+- Communities
+  - Social Communities
+  - People to follow
+- Security news sources
+
+# References and things to read
+
+- https://www.cyberseek.org/pathway.html
