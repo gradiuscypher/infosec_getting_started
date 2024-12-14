@@ -11,6 +11,10 @@
 
 - Include a weekly write up of news and new resources included in the repo?
 - How do I keep these links up to date? Need some sort of link freshness automation
+- CLI tools for interacting with the data, maybe a TUI for fun?
+- Original content
+  - Writeup on build vs buy
+- Do we need to change the license?
 
 # Topics
 
@@ -36,6 +40,12 @@
   - Social Communities
   - People to follow
 - Security news sources
+- Books
+- Security adjacent interests
+  - hardware hacking
+  - game hacking
+  - emulation
+- Conferences
 
 # References and things to read
 
