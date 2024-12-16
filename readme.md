@@ -3,13 +3,19 @@
 # Goals
 
 - Split the resources into various infosec topics
-  - Split the topics into rough skill levels
+  - Split the topics into rough skill levels: Each skill level will contain links to the documents relevant to that skill level
+  - Can include topics from HS onward
+  - Review college courses for cybersecurity and highlight effective looking course descriptions and content
 - Stick to very simple markdown that can be viewed in Github, possibly mirror to Gitlab or self-hosted Git
 - Add a contribution guide for the new content
 
 # Other thoughts
 
 - Include a weekly write up of news and new resources included in the repo?
+- Discord bot and RSS feed that sends weekly updates to people.
+  - Send the update out friday morning
+  - Bot can be a personal bot or a server bot
+  - Use my own short link server?
 - How do I keep these links up to date? Need some sort of link freshness automation
 - CLI tools for interacting with the data, maybe a TUI for fun?
 - Original content
